@@ -8,7 +8,7 @@
 class modAlphaCipher
 {
 private:
-    std::wstring numAlpha = L"АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
+    std::wstring numAlpha = L"АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя";
     std::map<wchar_t, int> alphaNum;
     std::vector<int> key;
     std::vector<int> convert(const std::wstring& s);
